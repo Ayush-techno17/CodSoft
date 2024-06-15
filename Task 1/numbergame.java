@@ -52,6 +52,7 @@ public class numbergame {
         else
         System.out.println("Score : "+score);
 
+        //Giving option to replay
         System.out.println("\nWish to play again?? Enter Yes");
         char ans = sc.next().charAt(0);
 
@@ -128,4 +129,5 @@ public class numbergame {
         }
         
     }
+
 }
