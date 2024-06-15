@@ -1,11 +1,9 @@
-package CodSoft.Task1;
-
 import java.util.Scanner;
 
 public class numbergame {
     Scanner sc = new Scanner(System.in);
     
-    // Types of Game
+    //Function for choosing Mode of Game
     public int options()
     {
         System.out.println("Enter you choice - \n1 - Unlimited Attempts Game \n2 - Fixed No. of Attempts Game");
